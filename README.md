@@ -143,16 +143,16 @@ Tambahkan screenshot hasil eksekusi pada folder `screenshots/` dengan nama berik
 Tempatkan screenshot pada bagian ini saat proyek sudah dijalankan:
 
 ### Screenshot Airflow DAG
-Tambahkan gambar `screenshots/airflow-dag.png`
+![Airflow DAG](screenshots/airflow-dag.png)
 
 ### Screenshot ClickHouse
-Tambahkan gambar `screenshots/clickhouse-table.png`
+![ClickHouse Table](screenshots/clickhouse-table.png)
 
 ### Screenshot Questions Metabase
-Tambahkan gambar `screenshots/metabase-questions.png`
+![Metabase Questions](screenshots/metabase-questions.png)
 
 ### Screenshot Dashboard Metabase
-Tambahkan gambar `screenshots/metabase-dashboard.png`
+![Metabase Dashboard](screenshots/metabase-dashboard.png)
 
 ## Kesimpulan
 Proyek ini menunjukkan implementasi pipeline data sederhana dari API orders ke ClickHouse menggunakan Airflow dan Spark, lalu divisualisasikan menggunakan Metabase. Struktur proyek sudah dipisahkan antara orchestration, transformasi, penyimpanan analitik, dan dokumentasi sehingga mudah direview dan dikembangkan lebih lanjut.
